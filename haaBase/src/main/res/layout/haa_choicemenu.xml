@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frameLayout"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        >
+        <include
+            android:id="@+id/attach"
+            layout="@layout/attachment"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+        <include
+            android:id="@+id/fc"
+            layout="@layout/fgcolor"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <include
+            android:id="@+id/gc"
+            layout="@layout/bgcolor"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <include
+            android:id="@+id/font"
+            layout="@layout/font"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <include
+            android:id="@+id/fontSize"
+            layout="@layout/fontsize"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <include
+            android:id="@+id/align"
+            layout="@layout/align"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </FrameLayout>
+
+   <include
+       android:id="@+id/bottom"
+       layout="@layout/bottom"
+       android:layout_below="@id/frameLayout"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"/>
+</RelativeLayout>
+
+

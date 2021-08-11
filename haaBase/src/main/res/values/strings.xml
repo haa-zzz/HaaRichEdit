@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="image">图片</string>
+    <string name="attachment">attachment</string>
+    <string name="bold">bold</string>
+    <string name="italic">italic</string>
+    <string name="strikethrough">strikethrough</string>
+    <string name="underline">underline</string>
+    <string name="h1">h1</string>
+    <string name="h2">h2</string>
+    <string name="h3">h3</string>
+    <string name="align_center">alignCenter</string>
+    <string name="align_left">alignLeft</string>
+    <string name="align_right">align_right</string>
+    <string name="font">font</string>
+    <string name="uri">请输入网址</string>
+</resources>

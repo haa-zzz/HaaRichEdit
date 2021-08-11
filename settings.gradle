@@ -1,0 +1,2 @@
+rootProject.name = "HaaRichEdit"
+include ':haaBase'

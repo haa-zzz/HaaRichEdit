@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   >
+    <LinearLayout
+        android:layout_height="@dimen/dp_48"
+        android:id="@+id/gc_main"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/gc_red"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/image"
+            android:src="@drawable/gc_red" />
+        <ImageView
+            android:id="@+id/gc_yellow"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_weight="1"
+            android:contentDescription="@string/image"
+            android:src="@drawable/gc_yellow" />
+        <ImageView
+            android:id="@+id/gc_green"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_weight="1"
+            android:contentDescription="@string/image"
+            android:src="@drawable/gc_green" />
+        <ImageView
+            android:id="@+id/gc_blue"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_weight="1"
+            android:contentDescription="@string/image"
+            android:src="@drawable/gc_blue" />
+        <ImageView
+            android:id="@+id/gc_deepBlue"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_weight="1"
+            android:contentDescription="@string/image"
+            android:src="@drawable/gc_dblue" />
+        <ImageView
+            android:id="@+id/gc_pink"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_weight="1"
+            android:contentDescription="@string/image"
+            android:src="@drawable/gc_pink" />
+        <ImageView
+            android:id="@+id/gc_black"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_weight="1"
+            android:contentDescription="@string/image"
+            android:src="@drawable/gc_black" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
